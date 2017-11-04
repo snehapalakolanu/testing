@@ -72,7 +72,7 @@
      - script:
          name: Tag the pulled image
          code: |
-           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker tag saikrishnabellam/devops:latest saikrishnabellam/devops
+           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker tag saikrishnabellam/devops:latest saikrishnabellam/devops:current
      - script:
          name: Start all services/containers
          code: |
