@@ -35,7 +35,7 @@
            mv /pipeline/source/index.html /usr/share/nginx/html
            mv /pipeline/source/linux.png /usr/share/nginx/html
            apt-get update
-           apt-get install -y curl
+           apt-get install -y curl 
      - internal/docker-push:
          username: $DOCKER_USERNAME
          password: $DOCKER_PASSWORD
