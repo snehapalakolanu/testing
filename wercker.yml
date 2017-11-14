@@ -47,7 +47,7 @@
          cmd: nginx -g 'daemon off';
 
  deploy-dev:
-   box: node:latest
+   box: node:latest 
    steps:
      - wercker/add-ssh-key:
          keyname: sneha_DOCKER_AWS
